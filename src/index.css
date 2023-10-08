@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap'); 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-list li{
+color: #081054;
+font-weight:bold;
+font-size: small;
+}
+.header-list li:hover{
+  cursor: pointer;
+}
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+} 
+
+.common{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+ 
